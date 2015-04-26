@@ -30,12 +30,12 @@
     if (self.light.powerState == LFXPowerStateOn)
     {
         [self.button setTitle:@"ON"];
-        [self.button setColor:[UIColor greenColor]];
+        [self.button setBackgroundColor:[UIColor greenColor]];
     }
     else
     {
         [self.button setTitle:@"OFF"];
-        [self.button setColor:[UIColor darkGrayColor]];
+        [self.button setBackgroundColor:[UIColor darkGrayColor]];
     }
 }
 

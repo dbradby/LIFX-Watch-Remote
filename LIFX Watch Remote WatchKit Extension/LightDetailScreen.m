@@ -22,7 +22,7 @@
 
 - (instancetype)initWithContext:(id)context
 {
-    if (nil == (self = [super initWithContext:context]))
+    if (nil == (self = [super init]))
         return nil;
     
     self.light = context;
